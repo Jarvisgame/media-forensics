@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 运行时产物
+cases/
+outputs/
+*.log
+
+# 外部数据集（体积大，不入库；登记表见 doc/04）
+data/external/
+
+# 模型权重（默认不入库；SHA-256 登记表见 doc/04）
+models/
+*.pt
+*.pth
+*.onnx
+
+# 注：data/golden 与 data/samples 的标注 JSON 必须入库；
+#     图片素材视体积自行决定（建议 samples 入库、golden 大图按需）。

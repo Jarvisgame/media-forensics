@@ -1,0 +1,11 @@
+# 初始依赖清单（W1 执行时锁定具体版本）
+# 系统依赖（非 pip）：exiftool —— Debian/Ubuntu: sudo apt install libimage-exiftool-perl
+
+numpy
+opencv-python-headless
+pillow
+piexif
+
+# 后续阶段按需启用：
+# gradio        # W8 薄界面
+# torch         # W5 AIGC 基线推理（CPU 版即可）
