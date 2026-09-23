@@ -58,7 +58,7 @@ python -m forensics.cli analyze <图片路径>
 ```
 
 环境依赖（W1 锁定版本）：
-- Python 3.10+（venv）
+- Python 3.11（conda 环境 `media-forensics`：`conda create -n media-forensics python=3.11`）
 - pip 依赖见 `requirements.txt`
 - 系统依赖：`exiftool`（Debian/Ubuntu：`sudo apt install libimage-exiftool-perl`）
 
